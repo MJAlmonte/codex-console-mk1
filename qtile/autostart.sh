@@ -4,5 +4,8 @@ conky -c  /home/mjalmonte/.config/conky/default.conkyrc &
 picom --experimental-backends &
 nitrogen --restore &
 optimus-manager-qt &
-flatpak run com.getferdi.Ferdi &
+flatpak run org.ferdium.Ferdium &
 jellyfinmediaplayer &
+modprobe btusb &
+dropbox &
+

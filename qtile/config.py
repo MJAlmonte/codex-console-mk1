@@ -159,11 +159,11 @@ groups = [
     Group("1", label="SYS", matches=[Match(wm_class=["gedit", "conky"],)]),
     Group("2", label="MDA", spawn=["spotify"], matches=[Match(wm_class=["spotify", "jellyfinmediaplayer"],)], layout="stack",),
     Group("3", label="WWW" , matches=[Match(wm_class=["firefox", "qbittorrentq"],)],layout="column"),
-    Group("4", label="COM", spawn=["discord", "ferdi"], matches=[Match(wm_class=["discord","ferdi"],)], layout="stack"),
+    Group("4", label="COM", spawn=["discord"], matches=[Match(wm_class=["discord","ferdium"],)], layout="stack"),
     Group("5", label="WRK", matches=[Match(wm_class=["google-chrome"],)]),
     Group("6", label=""),
     Group("7", label=""),
-    Group("8", label="DEV", matches=[Match(wm_class=["atom"],)], layout="stack"),
+    Group("8", label="DEV", matches=[Match(wm_class=["vscodium"],)], layout="stack"),
     Group("9", label="GME", matches=[Match(wm_class=["minecraft-launcher", "Steam"],)], layout="stack"),
 ]
 
